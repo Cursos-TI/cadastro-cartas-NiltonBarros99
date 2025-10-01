@@ -11,7 +11,7 @@ int main() {
   char Estado;
   char Código[3];
   char Cidade[50];
-  int População;
+  long long int População;
   float Área;
   float PIB;
   int Pontosturísticos;
@@ -41,7 +41,7 @@ int main() {
   scanf (" %s", Cidade);
 
   printf("Perfeito. Nos informe o tamanho da população de sua cidade:           \n");
-  scanf(" %d", &População);
+  scanf(" %lld", &População);
 
   printf("Informe a Área de sua cidade em (km²):         \n");
   scanf(" %f", &Área);
@@ -116,5 +116,5 @@ int main() {
 
 
 
-  return 0;
+ return 0;
 } 
