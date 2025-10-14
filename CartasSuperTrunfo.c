@@ -137,6 +137,19 @@ int main() {
   printf("Densidade Populacional: Carta 2 venceu (%d)\n", densidade1 < densidade2);
   printf("PIB per capita: Carta 1 venceu (%d)\n", pibpercapita1 > pibpercapita2);
   printf("Super Poder: Carta 1 venceu (%d)\n", superpoder1 > superpoder2);
+  printf("\n");
+  printf("Comparando Atributos 1x1\n");
+
+  //Área de comparação if-else
+  printf("Comparação de cartas: (Atributo: Pontos Turísticos)\n");
+  printf("Carta 1 %s (DF): %d\n", cidade1, pontosturisticos1);
+  printf("Carta 2 %s (CWB): %d\n", cidade2, pontos2);
+  
+  if (pontosturisticos1 > pontos2) {
+    printf("Carta 1 (%s) Venceu!\n", cidade1);
+  } else {
+    printf("Carta 2 (%s) Venceu!\n", cidade2);
+  }
 
  return 0;
 } 
